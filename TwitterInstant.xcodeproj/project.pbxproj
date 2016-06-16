@@ -14,6 +14,16 @@
 		C2C631DC1D12CE2D00CD2C79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C631DA1D12CE2D00CD2C79 /* LaunchScreen.storyboard */; };
 		C2C631E71D12CE2D00CD2C79 /* TwitterInstantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C631E61D12CE2D00CD2C79 /* TwitterInstantTests.swift */; };
 		C2C631F21D12CE2D00CD2C79 /* TwitterInstantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C631F11D12CE2D00CD2C79 /* TwitterInstantUITests.swift */; };
+		C2C632001D12DBC900CD2C79 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C631FF1D12DBC900CD2C79 /* ReactiveCocoa.framework */; };
+		C2C632011D12DBC900CD2C79 /* ReactiveCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2C631FF1D12DBC900CD2C79 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C2C632041D12DBEE00CD2C79 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C632031D12DBEE00CD2C79 /* Result.framework */; };
+		C2C632051D12DBEE00CD2C79 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2C632031D12DBEE00CD2C79 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C2C632081D12DE3400CD2C79 /* SearchFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C632071D12DE3400CD2C79 /* SearchFormViewController.swift */; };
+		C2C6320A1D12DE5B00CD2C79 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C632091D12DE5B00CD2C79 /* TableViewCell.swift */; };
+		C2C6320C1D12DE9700CD2C79 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C6320B1D12DE9700CD2C79 /* SearchResultsViewController.swift */; };
+		C2C6320F1D12DEB400CD2C79 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C6320E1D12DEB400CD2C79 /* Tweet.swift */; };
+		C2C632111D12EBEF00CD2C79 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C632101D12EBEF00CD2C79 /* Social.framework */; };
+		C2C632131D12EBFD00CD2C79 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C632121D12EBFD00CD2C79 /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +43,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C2C632021D12DBC900CD2C79 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C2C632011D12DBC900CD2C79 /* ReactiveCocoa.framework in Embed Frameworks */,
+				C2C632051D12DBEE00CD2C79 /* Result.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		C2C631CE1D12CE2C00CD2C79 /* TwitterInstant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterInstant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C631D11D12CE2D00CD2C79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +72,14 @@
 		C2C631ED1D12CE2D00CD2C79 /* TwitterInstantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterInstantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C631F11D12CE2D00CD2C79 /* TwitterInstantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterInstantUITests.swift; sourceTree = "<group>"; };
 		C2C631F31D12CE2D00CD2C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C631FF1D12DBC900CD2C79 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		C2C632031D12DBEE00CD2C79 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		C2C632071D12DE3400CD2C79 /* SearchFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFormViewController.swift; sourceTree = "<group>"; };
+		C2C632091D12DE5B00CD2C79 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		C2C6320B1D12DE9700CD2C79 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		C2C6320E1D12DEB400CD2C79 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		C2C632101D12EBEF00CD2C79 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		C2C632121D12EBFD00CD2C79 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +87,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2C632131D12EBFD00CD2C79 /* Accounts.framework in Frameworks */,
+				C2C632111D12EBEF00CD2C79 /* Social.framework in Frameworks */,
+				C2C632001D12DBC900CD2C79 /* ReactiveCocoa.framework in Frameworks */,
+				C2C632041D12DBEE00CD2C79 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +114,10 @@
 		C2C631C51D12CE2C00CD2C79 = {
 			isa = PBXGroup;
 			children = (
+				C2C632121D12EBFD00CD2C79 /* Accounts.framework */,
+				C2C632101D12EBEF00CD2C79 /* Social.framework */,
+				C2C632031D12DBEE00CD2C79 /* Result.framework */,
+				C2C631FF1D12DBC900CD2C79 /* ReactiveCocoa.framework */,
 				C2C631D01D12CE2D00CD2C79 /* TwitterInstant */,
 				C2C631E51D12CE2D00CD2C79 /* TwitterInstantTests */,
 				C2C631F01D12CE2D00CD2C79 /* TwitterInstantUITests */,
@@ -103,6 +144,10 @@
 				C2C631D81D12CE2D00CD2C79 /* Assets.xcassets */,
 				C2C631DA1D12CE2D00CD2C79 /* LaunchScreen.storyboard */,
 				C2C631DD1D12CE2D00CD2C79 /* Info.plist */,
+				C2C632071D12DE3400CD2C79 /* SearchFormViewController.swift */,
+				C2C632091D12DE5B00CD2C79 /* TableViewCell.swift */,
+				C2C6320B1D12DE9700CD2C79 /* SearchResultsViewController.swift */,
+				C2C6320E1D12DEB400CD2C79 /* Tweet.swift */,
 			);
 			path = TwitterInstant;
 			sourceTree = "<group>";
@@ -135,6 +180,8 @@
 				C2C631CA1D12CE2C00CD2C79 /* Sources */,
 				C2C631CB1D12CE2C00CD2C79 /* Frameworks */,
 				C2C631CC1D12CE2C00CD2C79 /* Resources */,
+				C2C632061D12DC0200CD2C79 /* ShellScript */,
+				C2C632021D12DBC900CD2C79 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,13 +297,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C2C632061D12DC0200CD2C79 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C2C631CA1D12CE2C00CD2C79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C2C631D41D12CE2D00CD2C79 /* ViewController.swift in Sources */,
+				C2C6320A1D12DE5B00CD2C79 /* TableViewCell.swift in Sources */,
 				C2C631D21D12CE2D00CD2C79 /* AppDelegate.swift in Sources */,
+				C2C6320F1D12DEB400CD2C79 /* Tweet.swift in Sources */,
+				C2C632081D12DE3400CD2C79 /* SearchFormViewController.swift in Sources */,
+				C2C6320C1D12DE9700CD2C79 /* SearchResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,10 +466,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TwitterInstant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rac.TwitterInstant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -409,10 +482,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TwitterInstant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rac.TwitterInstant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

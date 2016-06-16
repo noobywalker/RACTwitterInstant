@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C2C631CD1D12CE2C00CD2C79"
+               BuildableName = "TwitterInstant.app"
+               BlueprintName = "TwitterInstant"
+               ReferencedContainer = "container:TwitterInstant.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C2C631E11D12CE2D00CD2C79"
+               BuildableName = "TwitterInstantTests.xctest"
+               BlueprintName = "TwitterInstantTests"
+               ReferencedContainer = "container:TwitterInstant.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C2C631EC1D12CE2D00CD2C79"
+               BuildableName = "TwitterInstantUITests.xctest"
+               BlueprintName = "TwitterInstantUITests"
+               ReferencedContainer = "container:TwitterInstant.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C2C631CD1D12CE2C00CD2C79"
+            BuildableName = "TwitterInstant.app"
+            BlueprintName = "TwitterInstant"
+            ReferencedContainer = "container:TwitterInstant.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C2C631CD1D12CE2C00CD2C79"
+            BuildableName = "TwitterInstant.app"
+            BlueprintName = "TwitterInstant"
+            ReferencedContainer = "container:TwitterInstant.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C2C631CD1D12CE2C00CD2C79"
+            BuildableName = "TwitterInstant.app"
+            BlueprintName = "TwitterInstant"
+            ReferencedContainer = "container:TwitterInstant.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
